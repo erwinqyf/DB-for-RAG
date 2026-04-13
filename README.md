@@ -1,6 +1,6 @@
 # DB-for-RAG
 Knowledge base for RAG
-This repository is to set all files for RAG in Dify
+This repository is to set all files for RAG in Dify and the notes from it
 
 ## 2026_04_09 The first good way to manage the file is markdown, where:
 - each bilingual segment is divided by /n/n.
@@ -16,3 +16,4 @@ This repository is to set all files for RAG in Dify
 - For PDFs, using MinerU is a good way for text extraction
 - Those extracted text may not be good for parent-child chunking, so general chunking still works
 - In general chunking method, it's better to increase the overlapping size
+- WARNING! This method only works when the file is small, otherwise the SML will defintely, out of no doubt, hallucinate and generate nonsense!
